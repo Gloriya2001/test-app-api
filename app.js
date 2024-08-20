@@ -6,7 +6,7 @@ const jwt = require("jsonwebtoken")
 
 let app = express()
 
-app.get("/", (req,res)=>{
+app.post("/", (req,res)=>{
     res.send("hello")
 })
 
